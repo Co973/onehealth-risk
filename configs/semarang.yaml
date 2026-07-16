@@ -1,0 +1,85 @@
+site_id: semarang
+
+description: Local/private Semarang pipeline validation config. Do not publish patient-level data unless local governance permits sharing.
+
+data:
+  cases: data/raw/leptospirosis_surveillance_cases_semarang_2018_2023.csv
+  weather: data/raw/semarang_monthly_weather_2018_2023.csv
+  population: data/raw/semarang_population_estimates_2018_2023.csv
+  lookup: data/raw/semarang_kecamatan_lookup.csv
+
+paths:
+  processed: data/processed
+  global_models: models/global
+  local_models: models/local
+  reports: outputs/reports
+  predictions: outputs/predictions
+
+columns:
+  registered_date: registered_date
+  geo_code: patient_loc_kelurahan_code
+
+target:
+  column: patient_status
+  positive: Deceased
+  negative: Recovered
+
+required_columns:
+  - patient_id
+  - registered_date
+  - patient_age
+  - patient_gender
+  - patient_loc_kelurahan_code
+
+feature_groups:
+  clinical:
+    columns:
+      - patient_age
+      - patient_gender
+      - patient_occupation
+      - patient_occu_mobility
+      - patient_occu_interaction_human
+      - patient_occu_interaction_waste
+      - patient_occu_interaction_animal
+      - patient_edu
+      - patient_marital
+      - first_symptom_day_offset
+      - hospitalised_day_offset
+      - diag_confirmed_day_offset
+    prefixes:
+      - symp_
+  environmental:
+    columns:
+      - humidity
+      - temperature_c
+      - rainfall_mm
+    prefixes:
+      - house_env_
+      - activity_
+      - bath_
+      - wound_
+      - dirty_water_
+      - exposure_dirty_water_
+  animal:
+    columns:
+      - house_env_rat_sighting
+    prefixes:
+      - animal_present_
+      - exposure_animal_
+      - exposure_contact_
+      - host_contact_
+  geography:
+    columns:
+      - kecamatan_code
+      - kecamatan_name
+
+security:
+  project_root: .
+  allow_external_paths: false
+  require_local_outputs: true
+  identifier_columns:
+    - patient_id
+  hash_identifier_columns:
+    - patient_id
+  drop_identifier_columns: []
+  free_text_columns: []

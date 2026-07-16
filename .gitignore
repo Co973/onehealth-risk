@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local/private site data and generated preprocessing outputs.
+data/raw/
+data/processed/
+
+# Generated artifacts. Recreate with `onehealth-risk demo synthetic`
+# or `onehealth-risk run-all --config configs/synthetic.yaml`.
+models/
+outputs/
+
+# Local environment files.
+.env
+.venv/
+venv/

@@ -1,0 +1,241 @@
+patient_id,registered_date,patient_age,patient_gender,patient_occupation,patient_loc_kelurahan_code,first_symptom_day_offset,hospitalised_day_offset,diag_confirmed_day_offset,symp_fever,symp_jaundice,symp_renal_signs,house_env_rat_sighting,house_env_flood_prone,activity_flood_cleanup,animal_present_livestock,exposure_animal_rodent,patient_status
+SYN-0001,Jun/2022,19,Female,Office worker,33.74.06.07,2,3,14,1,0,0,0,1,0,0,0,Recovered
+SYN-0002,Sep/2020,33,Male,Office worker,33.74.01.02,7,2,8,1,0,0,0,0,0,0,0,Recovered
+SYN-0003,Jul/2023,71,Female,Office worker,33.74.01.07,1,9,4,1,0,0,1,0,0,0,1,Recovered
+SYN-0004,Dec/2023,34,Female,Student,33.74.05.01,5,11,3,1,1,1,1,0,0,0,1,Deceased
+SYN-0005,Jun/2023,59,Female,Farmer,33.74.05.07,2,2,8,1,1,0,0,0,0,0,0,Recovered
+SYN-0006,Dec/2021,46,Female,Office worker,33.74.01.02,4,2,14,1,1,0,0,0,0,0,0,Deceased
+SYN-0007,Aug/2022,28,Male,Office worker,33.74.01.06,4,4,7,1,0,0,0,0,0,0,0,Recovered
+SYN-0008,Feb/2021,82,Male,Student,33.74.03.04,4,4,3,1,0,0,1,0,0,1,1,Recovered
+SYN-0009,May/2022,34,Female,Student,33.74.01.06,0,5,9,1,1,1,1,0,0,0,1,Deceased
+SYN-0010,Dec/2022,28,Male,Market worker,33.74.06.07,3,4,2,1,0,0,1,0,0,1,1,Recovered
+SYN-0011,Jun/2020,51,Female,Office worker,33.74.01.05,6,7,10,1,0,0,0,0,1,0,0,Recovered
+SYN-0012,Nov/2023,1,Female,Farmer,33.74.06.02,3,7,5,1,0,0,1,0,0,0,1,Recovered
+SYN-0013,Sep/2020,35,Female,Market worker,33.74.05.07,6,6,10,0,0,0,1,0,0,0,1,Recovered
+SYN-0014,Sep/2020,19,Male,Student,33.74.05.05,5,7,3,1,0,0,0,0,1,0,0,Recovered
+SYN-0015,Aug/2021,54,Female,Student,33.74.04.04,4,2,4,1,0,0,0,0,0,0,0,Recovered
+SYN-0016,Nov/2022,49,Male,Student,33.74.05.06,0,6,10,1,0,0,1,0,0,0,1,Recovered
+SYN-0017,Dec/2022,46,Male,Student,33.74.06.01,7,7,7,1,0,0,1,0,0,0,1,Recovered
+SYN-0018,Jun/2021,58,Female,Student,33.74.05.02,6,10,10,1,0,0,0,1,0,0,0,Deceased
+SYN-0019,May/2020,11,Male,Office worker,33.74.03.06,6,6,3,1,0,0,1,0,0,0,1,Recovered
+SYN-0020,Mar/2020,44,Female,Student,33.74.01.06,6,9,4,1,0,1,1,0,0,1,1,Deceased
+SYN-0021,Aug/2020,4,Male,Office worker,33.74.01.07,7,2,12,1,0,0,1,0,0,1,1,Recovered
+SYN-0022,Jun/2020,40,Male,Market worker,33.74.01.01,1,1,5,1,0,0,1,0,0,0,1,Deceased
+SYN-0023,Apr/2020,51,Male,Student,33.74.04.03,7,7,7,0,0,0,1,0,0,0,1,Deceased
+SYN-0024,Dec/2020,35,Female,Student,33.74.06.04,4,8,7,1,0,0,0,0,1,1,0,Recovered
+SYN-0025,May/2020,25,Male,Student,33.74.02.07,4,7,6,1,0,0,1,1,0,0,1,Recovered
+SYN-0026,May/2020,48,Female,Office worker,33.74.04.03,4,3,7,1,0,0,1,0,0,0,1,Recovered
+SYN-0027,Mar/2022,53,Male,Office worker,33.74.06.03,3,1,3,1,0,0,1,1,0,1,1,Recovered
+SYN-0028,Apr/2022,36,Male,Office worker,33.74.03.03,2,8,3,1,0,1,0,0,1,0,0,Recovered
+SYN-0029,Apr/2020,50,Male,Market worker,33.74.06.03,0,8,4,1,0,0,1,1,1,1,1,Recovered
+SYN-0030,Sep/2023,23,Male,Farmer,33.74.06.03,0,10,11,0,0,0,0,0,0,1,0,Recovered
+SYN-0031,Dec/2020,50,Male,Farmer,33.74.06.01,0,3,5,1,0,0,0,0,0,0,0,Recovered
+SYN-0032,Mar/2023,45,Female,Farmer,33.74.05.04,6,8,13,1,0,0,0,1,0,0,0,Recovered
+SYN-0033,Jul/2021,25,Female,Farmer,33.74.03.03,1,3,2,1,0,0,1,0,0,0,1,Recovered
+SYN-0034,Apr/2022,46,Male,Farmer,33.74.01.07,6,8,13,1,0,0,0,0,0,0,0,Recovered
+SYN-0035,Apr/2020,79,Female,Office worker,33.74.01.02,2,10,11,1,0,0,0,0,0,1,0,Deceased
+SYN-0036,Jan/2022,32,Female,Office worker,33.74.05.05,0,3,9,0,0,0,1,0,0,0,1,Deceased
+SYN-0037,Mar/2020,52,Female,Office worker,33.74.03.06,5,5,12,1,0,0,0,1,0,0,0,Recovered
+SYN-0038,Oct/2021,47,Male,Market worker,33.74.01.02,1,5,13,1,1,0,0,0,0,0,0,Recovered
+SYN-0039,Oct/2021,36,Female,Market worker,33.74.03.03,6,6,14,0,0,1,1,0,0,1,1,Recovered
+SYN-0040,Sep/2020,17,Female,Student,33.74.06.01,2,1,2,1,0,0,0,1,1,0,0,Recovered
+SYN-0041,Jul/2023,35,Female,Office worker,33.74.03.03,1,7,6,0,0,0,1,0,0,0,1,Recovered
+SYN-0042,Jun/2022,28,Female,Farmer,33.74.04.01,4,3,12,1,0,0,0,0,0,0,0,Recovered
+SYN-0043,May/2022,33,Female,Office worker,33.74.05.06,4,11,7,1,0,0,0,1,0,1,0,Deceased
+SYN-0044,Mar/2020,23,Male,Student,33.74.02.05,3,9,2,1,0,0,1,0,1,0,1,Recovered
+SYN-0045,Dec/2020,41,Female,Farmer,33.74.03.01,2,5,7,1,0,1,0,0,0,0,0,Recovered
+SYN-0046,May/2022,13,Female,Student,33.74.02.04,3,10,11,1,0,0,0,1,1,1,0,Recovered
+SYN-0047,May/2020,56,Female,Market worker,33.74.01.02,4,8,13,1,1,0,1,1,0,0,1,Deceased
+SYN-0048,Aug/2023,25,Male,Office worker,33.74.05.01,2,9,12,1,0,0,0,0,0,0,0,Recovered
+SYN-0049,Jan/2022,56,Male,Student,33.74.03.05,5,10,11,1,1,0,1,0,0,0,1,Recovered
+SYN-0050,Dec/2020,45,Female,Student,33.74.01.07,0,7,14,1,1,0,0,0,1,0,0,Recovered
+SYN-0051,Aug/2021,21,Female,Market worker,33.74.04.07,6,3,2,1,1,0,1,0,0,0,1,Deceased
+SYN-0052,Jun/2022,21,Female,Office worker,33.74.04.06,7,2,7,1,0,0,1,0,1,0,1,Recovered
+SYN-0053,Sep/2021,30,Female,Office worker,33.74.03.02,1,8,4,0,0,0,1,0,0,0,1,Recovered
+SYN-0054,Jul/2023,42,Male,Office worker,33.74.05.07,4,5,3,1,0,0,0,0,0,0,0,Deceased
+SYN-0055,Jan/2020,76,Male,Office worker,33.74.02.05,3,7,6,1,0,0,0,0,0,0,0,Recovered
+SYN-0056,Apr/2022,32,Female,Student,33.74.06.03,5,1,6,1,0,0,1,0,0,1,1,Recovered
+SYN-0057,May/2022,28,Female,Farmer,33.74.06.01,0,1,8,1,0,0,1,0,0,0,1,Deceased
+SYN-0058,Dec/2020,37,Male,Office worker,33.74.02.03,7,7,2,1,0,0,0,1,0,0,0,Deceased
+SYN-0059,Apr/2023,26,Female,Office worker,33.74.06.03,4,6,11,1,1,0,1,1,0,0,1,Recovered
+SYN-0060,Feb/2020,72,Female,Farmer,33.74.05.02,6,7,4,0,1,0,1,0,0,0,1,Recovered
+SYN-0061,Jul/2020,69,Female,Office worker,33.74.06.01,7,1,12,1,0,0,1,0,0,0,1,Recovered
+SYN-0062,Apr/2023,43,Female,Student,33.74.03.03,4,11,4,1,0,0,0,1,1,1,0,Recovered
+SYN-0063,Jan/2020,51,Male,Office worker,33.74.02.01,6,9,11,1,0,0,1,0,1,0,1,Recovered
+SYN-0064,Mar/2022,68,Male,Student,33.74.01.02,7,6,7,1,0,0,0,0,1,0,0,Recovered
+SYN-0065,Jul/2023,59,Female,Office worker,33.74.01.05,2,5,11,1,1,0,1,0,0,0,1,Recovered
+SYN-0066,Jun/2022,12,Male,Farmer,33.74.06.03,7,9,11,1,0,0,1,0,0,0,1,Recovered
+SYN-0067,Jun/2021,76,Male,Market worker,33.74.06.06,7,4,7,1,0,0,0,0,0,0,0,Recovered
+SYN-0068,Jan/2021,48,Male,Farmer,33.74.01.06,1,2,12,1,0,0,1,0,0,0,1,Deceased
+SYN-0069,Jun/2023,35,Male,Market worker,33.74.02.04,5,9,14,1,0,0,1,0,0,0,1,Recovered
+SYN-0070,Nov/2022,45,Male,Market worker,33.74.06.03,3,2,14,1,1,0,0,0,0,0,0,Recovered
+SYN-0071,Oct/2021,27,Male,Office worker,33.74.04.01,5,11,11,1,0,0,0,0,0,0,0,Recovered
+SYN-0072,Jun/2022,49,Male,Office worker,33.74.04.03,6,7,4,1,0,0,1,1,0,0,1,Recovered
+SYN-0073,Dec/2020,38,Male,Student,33.74.01.01,3,5,10,1,0,0,1,0,0,1,1,Deceased
+SYN-0074,May/2022,43,Male,Student,33.74.05.02,3,6,9,0,0,0,0,0,0,0,0,Recovered
+SYN-0075,Feb/2020,40,Female,Farmer,33.74.06.02,3,3,2,1,0,0,1,0,0,0,1,Recovered
+SYN-0076,Aug/2023,66,Female,Office worker,33.74.05.02,1,7,13,1,0,0,0,1,1,0,0,Deceased
+SYN-0077,Jan/2022,42,Male,Office worker,33.74.01.03,1,1,3,1,0,1,0,0,0,0,0,Recovered
+SYN-0078,Mar/2020,38,Male,Office worker,33.74.01.06,3,4,6,1,0,0,1,1,1,0,1,Deceased
+SYN-0079,Jan/2023,34,Male,Student,33.74.01.07,5,2,7,1,0,0,0,0,0,0,0,Recovered
+SYN-0080,Oct/2021,19,Male,Market worker,33.74.02.03,6,5,11,1,0,0,0,1,1,0,0,Recovered
+SYN-0081,Jun/2022,23,Male,Farmer,33.74.02.01,4,2,6,1,0,0,1,0,0,1,1,Deceased
+SYN-0082,Jan/2020,35,Male,Farmer,33.74.02.06,7,6,2,1,1,0,1,1,0,0,1,Recovered
+SYN-0083,Feb/2020,21,Male,Office worker,33.74.02.02,2,4,6,1,0,0,1,1,0,0,1,Recovered
+SYN-0084,Sep/2021,38,Female,Market worker,33.74.02.03,0,3,13,0,1,0,1,0,0,0,1,Recovered
+SYN-0085,Oct/2021,51,Male,Student,33.74.01.06,7,4,8,1,0,0,0,0,0,0,0,Recovered
+SYN-0086,Mar/2023,42,Female,Market worker,33.74.04.05,2,8,7,1,0,0,0,1,0,0,0,Recovered
+SYN-0087,Dec/2022,12,Female,Market worker,33.74.03.03,2,11,6,1,0,0,0,0,1,1,0,Recovered
+SYN-0088,Nov/2023,57,Male,Office worker,33.74.03.02,4,2,10,1,0,0,0,1,0,0,0,Recovered
+SYN-0089,Sep/2023,42,Female,Market worker,33.74.04.02,6,3,8,1,0,0,1,0,1,0,1,Recovered
+SYN-0090,Jul/2023,80,Female,Farmer,33.74.06.02,4,3,14,1,0,0,0,0,0,1,0,Recovered
+SYN-0091,Nov/2023,2,Male,Market worker,33.74.06.07,3,11,6,1,0,0,0,0,1,0,0,Recovered
+SYN-0092,Apr/2020,52,Female,Market worker,33.74.02.05,1,7,10,0,1,0,1,1,0,1,1,Recovered
+SYN-0093,Nov/2023,11,Male,Office worker,33.74.04.02,3,3,12,1,0,0,1,0,1,0,1,Recovered
+SYN-0094,Jul/2023,26,Female,Office worker,33.74.04.05,0,3,11,1,1,0,0,1,0,1,0,Recovered
+SYN-0095,Jan/2023,48,Male,Market worker,33.74.06.05,3,9,7,0,1,0,0,1,0,0,0,Deceased
+SYN-0096,Jan/2022,20,Female,Office worker,33.74.02.05,6,4,14,1,0,0,0,1,0,0,0,Recovered
+SYN-0097,Nov/2023,69,Female,Farmer,33.74.06.02,3,2,3,1,0,0,1,1,0,0,1,Recovered
+SYN-0098,May/2023,31,Female,Market worker,33.74.04.05,7,10,14,1,0,0,1,1,1,1,1,Deceased
+SYN-0099,Aug/2020,55,Male,Office worker,33.74.02.07,4,8,13,0,0,0,1,0,0,1,1,Recovered
+SYN-0100,Aug/2021,60,Male,Farmer,33.74.03.02,5,2,10,1,0,0,1,0,0,0,1,Deceased
+SYN-0101,Nov/2022,24,Male,Farmer,33.74.06.02,7,2,8,1,0,0,0,0,0,1,0,Recovered
+SYN-0102,Dec/2020,39,Female,Farmer,33.74.02.06,0,9,12,1,0,0,0,0,0,0,0,Recovered
+SYN-0103,Oct/2020,43,Male,Farmer,33.74.06.05,3,7,12,1,0,0,0,0,0,0,0,Recovered
+SYN-0104,May/2022,44,Male,Farmer,33.74.05.04,0,2,14,1,0,0,0,1,1,0,0,Recovered
+SYN-0105,Oct/2020,48,Male,Student,33.74.06.03,2,3,6,1,1,0,0,1,0,0,0,Deceased
+SYN-0106,Sep/2021,48,Female,Student,33.74.03.03,2,2,4,1,0,0,0,0,0,0,0,Recovered
+SYN-0107,Sep/2020,44,Male,Student,33.74.02.04,6,1,14,1,0,0,1,0,0,0,1,Recovered
+SYN-0108,Nov/2021,37,Male,Student,33.74.04.05,3,6,8,0,0,0,1,0,0,0,1,Recovered
+SYN-0109,Dec/2023,23,Female,Office worker,33.74.01.02,2,2,7,1,0,0,0,1,0,0,0,Recovered
+SYN-0110,Dec/2023,52,Male,Farmer,33.74.04.01,6,1,10,1,0,1,0,1,1,0,0,Deceased
+SYN-0111,Sep/2023,44,Female,Office worker,33.74.06.04,2,1,7,1,0,0,1,0,0,0,1,Recovered
+SYN-0112,Apr/2022,14,Male,Student,33.74.03.02,1,10,8,1,1,0,0,0,1,0,0,Recovered
+SYN-0113,Aug/2020,59,Male,Market worker,33.74.03.06,5,2,14,1,0,0,0,0,0,0,0,Recovered
+SYN-0114,Dec/2023,40,Female,Farmer,33.74.05.02,2,3,12,1,0,0,1,0,0,0,1,Recovered
+SYN-0115,Jun/2020,43,Male,Farmer,33.74.02.02,0,1,4,0,0,0,0,0,0,0,0,Recovered
+SYN-0116,Jun/2022,1,Female,Market worker,33.74.06.04,6,7,3,1,1,0,1,0,0,0,1,Recovered
+SYN-0117,Mar/2020,38,Female,Student,33.74.06.07,1,4,8,1,0,0,1,0,0,0,1,Recovered
+SYN-0118,Nov/2023,66,Female,Office worker,33.74.06.04,7,1,11,1,0,0,1,0,0,0,1,Recovered
+SYN-0119,Aug/2022,64,Male,Office worker,33.74.03.05,3,7,14,1,0,0,1,0,0,0,1,Recovered
+SYN-0120,Dec/2020,48,Female,Market worker,33.74.04.05,3,6,2,0,1,0,0,1,0,1,0,Recovered
+SYN-0121,Aug/2021,31,Male,Office worker,33.74.06.03,1,7,8,1,0,0,0,0,0,0,0,Deceased
+SYN-0122,May/2021,32,Female,Farmer,33.74.06.01,5,4,4,1,0,0,1,0,0,0,1,Recovered
+SYN-0123,Jul/2020,22,Female,Student,33.74.01.01,0,3,3,0,0,0,1,1,0,1,1,Recovered
+SYN-0124,Feb/2022,31,Female,Market worker,33.74.05.07,5,5,7,1,0,0,0,1,0,1,0,Recovered
+SYN-0125,Feb/2023,34,Male,Office worker,33.74.02.07,0,10,11,1,0,0,0,1,1,0,0,Recovered
+SYN-0126,Jun/2020,31,Female,Market worker,33.74.02.07,1,4,11,1,0,0,0,0,0,1,0,Recovered
+SYN-0127,Mar/2020,18,Male,Office worker,33.74.03.04,4,1,11,1,0,0,1,1,0,0,1,Recovered
+SYN-0128,Sep/2023,46,Male,Farmer,33.74.03.04,7,4,8,1,0,1,0,0,0,0,0,Deceased
+SYN-0129,Sep/2021,10,Male,Student,33.74.02.02,4,11,4,1,0,0,0,0,1,0,0,Recovered
+SYN-0130,Jul/2021,34,Female,Office worker,33.74.04.04,6,4,14,1,0,0,0,1,0,0,0,Recovered
+SYN-0131,Jul/2022,54,Female,Office worker,33.74.04.03,1,5,8,0,0,0,0,0,0,0,0,Recovered
+SYN-0132,Oct/2021,37,Female,Market worker,33.74.06.02,4,7,10,1,0,0,0,0,0,0,0,Recovered
+SYN-0133,Feb/2022,58,Male,Market worker,33.74.01.02,0,11,6,0,0,0,0,1,0,0,0,Deceased
+SYN-0134,Jan/2020,28,Female,Farmer,33.74.01.05,3,5,2,1,0,0,0,0,0,1,0,Recovered
+SYN-0135,May/2022,34,Female,Market worker,33.74.06.07,7,10,8,1,0,0,0,1,0,0,0,Recovered
+SYN-0136,Dec/2022,69,Female,Market worker,33.74.01.05,6,6,12,1,1,0,0,0,1,0,0,Recovered
+SYN-0137,Oct/2022,36,Female,Office worker,33.74.02.04,7,5,4,1,0,0,1,0,1,0,1,Recovered
+SYN-0138,Jan/2022,44,Male,Student,33.74.01.01,6,1,9,0,0,0,0,0,0,0,0,Recovered
+SYN-0139,Aug/2022,21,Male,Farmer,33.74.05.07,7,2,11,1,0,0,0,0,1,0,0,Recovered
+SYN-0140,May/2022,66,Male,Student,33.74.06.05,4,6,14,1,0,0,0,1,0,0,0,Deceased
+SYN-0141,Oct/2021,27,Female,Farmer,33.74.01.04,2,1,12,1,1,0,0,0,0,0,0,Recovered
+SYN-0142,Jan/2021,30,Female,Market worker,33.74.04.01,0,6,5,0,0,0,1,1,0,0,1,Recovered
+SYN-0143,Jan/2021,43,Female,Student,33.74.02.04,1,4,7,1,0,0,1,0,0,0,1,Recovered
+SYN-0144,Oct/2020,36,Female,Office worker,33.74.04.06,7,4,2,1,0,0,1,0,0,0,1,Recovered
+SYN-0145,Jan/2022,31,Male,Student,33.74.04.06,2,2,14,0,1,0,0,1,0,0,0,Recovered
+SYN-0146,Jan/2020,75,Male,Farmer,33.74.03.06,4,1,3,1,1,1,0,0,0,0,0,Recovered
+SYN-0147,Nov/2023,40,Male,Farmer,33.74.02.03,4,11,14,0,0,0,0,1,0,1,0,Recovered
+SYN-0148,Apr/2022,33,Female,Farmer,33.74.02.03,5,6,8,1,0,0,1,1,0,0,1,Recovered
+SYN-0149,Mar/2020,20,Male,Market worker,33.74.06.03,1,4,12,1,0,0,1,0,0,0,1,Recovered
+SYN-0150,Sep/2022,74,Female,Market worker,33.74.06.03,0,1,14,1,0,0,1,0,1,1,1,Deceased
+SYN-0151,May/2021,43,Female,Farmer,33.74.02.03,0,7,2,1,0,0,1,1,0,0,1,Recovered
+SYN-0152,Mar/2020,33,Female,Office worker,33.74.04.02,3,2,11,1,0,0,0,0,0,0,0,Deceased
+SYN-0153,Sep/2023,46,Male,Office worker,33.74.06.06,4,6,13,1,0,1,0,1,0,0,0,Deceased
+SYN-0154,Aug/2022,45,Male,Office worker,33.74.03.07,3,9,6,1,0,0,1,0,0,0,1,Recovered
+SYN-0155,Mar/2020,83,Male,Office worker,33.74.01.01,6,6,14,1,0,0,1,0,1,0,1,Deceased
+SYN-0156,Nov/2020,65,Female,Market worker,33.74.05.02,0,4,9,1,0,0,0,0,1,0,0,Recovered
+SYN-0157,Apr/2020,25,Female,Market worker,33.74.04.03,5,6,7,0,0,0,1,1,1,0,1,Recovered
+SYN-0158,Apr/2021,54,Male,Office worker,33.74.06.03,2,4,6,0,1,0,0,1,0,0,0,Recovered
+SYN-0159,Jun/2023,51,Male,Market worker,33.74.02.04,0,9,14,1,1,0,1,0,0,1,1,Deceased
+SYN-0160,Oct/2023,52,Male,Farmer,33.74.03.02,1,8,5,1,1,0,1,0,0,0,1,Recovered
+SYN-0161,Dec/2023,43,Male,Office worker,33.74.05.03,0,8,7,1,0,0,0,0,0,0,0,Deceased
+SYN-0162,Oct/2021,42,Male,Market worker,33.74.04.07,4,5,11,1,0,0,0,0,0,1,0,Recovered
+SYN-0163,Nov/2022,83,Male,Market worker,33.74.02.03,1,8,3,1,0,0,1,0,0,0,1,Recovered
+SYN-0164,Oct/2020,26,Female,Market worker,33.74.06.05,0,10,2,1,0,0,1,0,0,0,1,Recovered
+SYN-0165,Dec/2020,61,Male,Office worker,33.74.03.05,7,10,3,1,0,0,0,0,1,0,0,Recovered
+SYN-0166,Feb/2021,37,Female,Farmer,33.74.02.06,0,4,5,1,0,1,1,0,1,0,1,Recovered
+SYN-0167,Sep/2021,65,Female,Market worker,33.74.03.02,6,10,6,1,0,0,0,0,1,1,0,Deceased
+SYN-0168,Jan/2022,33,Female,Student,33.74.05.03,0,10,2,1,1,0,0,0,0,0,0,Recovered
+SYN-0169,Feb/2021,78,Male,Student,33.74.05.03,3,2,13,1,0,0,0,0,0,0,0,Recovered
+SYN-0170,Mar/2020,36,Male,Farmer,33.74.03.01,1,9,13,1,0,0,1,0,1,0,1,Recovered
+SYN-0171,May/2020,46,Female,Student,33.74.02.03,5,2,2,1,1,0,0,0,0,0,0,Deceased
+SYN-0172,Mar/2021,23,Male,Market worker,33.74.04.02,6,8,11,1,0,0,1,0,0,0,1,Recovered
+SYN-0173,Dec/2022,64,Female,Market worker,33.74.02.07,3,4,3,0,0,0,1,1,0,1,1,Recovered
+SYN-0174,Jan/2023,37,Female,Student,33.74.01.01,5,10,10,1,1,0,0,0,0,0,0,Recovered
+SYN-0175,Nov/2021,54,Male,Office worker,33.74.02.03,7,6,4,0,0,0,1,1,0,0,1,Recovered
+SYN-0176,Mar/2020,38,Female,Market worker,33.74.01.02,6,9,10,1,0,0,0,0,0,1,0,Recovered
+SYN-0177,May/2023,1,Female,Market worker,33.74.04.07,6,5,9,1,1,0,1,0,0,0,1,Recovered
+SYN-0178,Feb/2020,36,Female,Farmer,33.74.05.07,7,5,8,1,1,0,1,1,1,0,1,Recovered
+SYN-0179,Jun/2023,37,Female,Farmer,33.74.03.02,0,11,14,1,1,0,0,0,0,0,0,Deceased
+SYN-0180,Dec/2022,91,Male,Farmer,33.74.05.06,0,7,14,1,0,0,0,0,0,0,0,Recovered
+SYN-0181,Sep/2022,6,Female,Student,33.74.03.07,4,11,4,1,0,0,1,1,0,0,1,Recovered
+SYN-0182,Mar/2021,33,Male,Market worker,33.74.06.05,5,6,10,0,0,0,0,1,0,0,0,Recovered
+SYN-0183,Jul/2020,40,Male,Student,33.74.03.01,4,10,6,1,0,0,1,0,1,0,1,Recovered
+SYN-0184,Mar/2022,84,Male,Student,33.74.04.02,2,3,8,1,0,0,0,1,0,0,0,Recovered
+SYN-0185,Dec/2020,59,Female,Office worker,33.74.04.03,0,8,9,1,1,0,0,0,0,0,0,Recovered
+SYN-0186,Jan/2021,75,Female,Student,33.74.05.06,1,4,2,1,0,1,0,0,0,1,0,Recovered
+SYN-0187,May/2020,46,Male,Office worker,33.74.03.04,0,5,7,0,0,0,1,0,0,0,1,Recovered
+SYN-0188,Feb/2022,41,Male,Market worker,33.74.03.01,2,4,13,1,1,0,1,0,0,0,1,Deceased
+SYN-0189,Jul/2020,57,Male,Office worker,33.74.03.03,1,7,14,0,0,0,0,0,0,0,0,Recovered
+SYN-0190,Mar/2020,85,Male,Market worker,33.74.02.02,3,3,8,1,0,0,0,1,0,0,0,Recovered
+SYN-0191,Apr/2023,48,Male,Office worker,33.74.05.01,5,2,13,0,0,0,0,0,0,0,0,Recovered
+SYN-0192,Apr/2020,65,Female,Office worker,33.74.03.05,3,11,7,1,0,0,1,1,0,0,1,Recovered
+SYN-0193,Jun/2022,16,Female,Farmer,33.74.01.03,4,3,8,1,0,0,1,0,0,0,1,Recovered
+SYN-0194,Aug/2022,71,Female,Student,33.74.05.06,5,2,5,1,0,0,0,0,0,0,0,Recovered
+SYN-0195,Dec/2020,64,Male,Market worker,33.74.06.01,3,9,12,1,0,0,0,0,0,0,0,Recovered
+SYN-0196,May/2021,47,Female,Office worker,33.74.02.07,1,4,8,0,0,0,1,0,1,0,1,Recovered
+SYN-0197,Sep/2023,22,Female,Student,33.74.05.02,3,6,13,1,1,0,0,1,0,0,0,Recovered
+SYN-0198,Mar/2022,51,Male,Student,33.74.02.03,6,6,4,1,0,0,1,0,0,0,1,Deceased
+SYN-0199,Feb/2023,8,Female,Student,33.74.02.04,7,5,12,1,0,0,0,0,0,0,0,Recovered
+SYN-0200,Sep/2021,25,Male,Farmer,33.74.04.01,5,1,12,1,0,1,0,0,1,0,0,Recovered
+SYN-0201,Aug/2020,40,Male,Student,33.74.01.04,0,9,3,1,0,0,1,0,0,0,1,Recovered
+SYN-0202,Dec/2020,34,Female,Market worker,33.74.05.02,7,9,13,0,0,0,1,0,0,0,1,Recovered
+SYN-0203,Jan/2023,88,Female,Student,33.74.05.05,2,7,11,1,1,0,1,1,1,1,1,Recovered
+SYN-0204,Oct/2020,49,Female,Farmer,33.74.05.01,7,9,5,1,0,0,0,0,1,0,0,Recovered
+SYN-0205,Sep/2023,58,Male,Farmer,33.74.05.04,3,3,12,1,0,0,1,0,0,0,1,Recovered
+SYN-0206,Feb/2022,52,Male,Student,33.74.03.03,4,10,5,1,0,0,1,1,0,0,1,Recovered
+SYN-0207,Feb/2021,33,Male,Farmer,33.74.03.02,5,1,7,1,0,0,0,1,0,0,0,Deceased
+SYN-0208,Aug/2021,60,Male,Market worker,33.74.03.07,3,1,2,1,0,0,1,1,1,0,1,Recovered
+SYN-0209,Jul/2020,31,Female,Farmer,33.74.03.04,4,4,4,1,1,0,0,1,0,1,0,Deceased
+SYN-0210,Oct/2020,77,Female,Office worker,33.74.01.03,1,10,10,1,0,0,1,0,0,0,1,Deceased
+SYN-0211,Sep/2021,43,Female,Market worker,33.74.06.05,5,10,3,1,0,1,0,0,0,0,0,Deceased
+SYN-0212,Apr/2023,68,Male,Student,33.74.02.01,5,7,2,1,0,0,1,0,0,0,1,Recovered
+SYN-0213,May/2021,18,Male,Farmer,33.74.05.06,2,8,3,1,0,0,0,1,1,0,0,Recovered
+SYN-0214,Jul/2020,26,Female,Office worker,33.74.05.05,7,11,3,1,0,0,0,0,1,0,0,Recovered
+SYN-0215,Oct/2020,50,Male,Office worker,33.74.03.07,0,9,9,1,0,0,0,0,0,0,0,Recovered
+SYN-0216,Aug/2020,61,Male,Market worker,33.74.04.03,6,3,10,1,0,0,0,0,0,0,0,Recovered
+SYN-0217,Apr/2023,78,Male,Market worker,33.74.02.07,1,3,9,1,1,0,1,0,0,0,1,Recovered
+SYN-0218,Jun/2023,16,Male,Office worker,33.74.04.05,4,6,5,1,0,0,1,0,1,0,1,Recovered
+SYN-0219,Feb/2022,66,Female,Market worker,33.74.01.04,2,10,11,1,0,0,0,0,1,0,0,Recovered
+SYN-0220,Aug/2021,1,Female,Farmer,33.74.03.06,6,1,9,1,0,0,1,0,0,1,1,Recovered
+SYN-0221,Jul/2021,68,Male,Market worker,33.74.02.07,3,3,14,1,0,1,1,0,0,0,1,Recovered
+SYN-0222,Sep/2020,39,Male,Market worker,33.74.03.01,6,7,9,0,0,0,1,0,0,1,1,Recovered
+SYN-0223,Jan/2022,68,Female,Farmer,33.74.02.07,3,8,4,1,0,0,1,0,0,1,1,Recovered
+SYN-0224,Apr/2020,79,Female,Market worker,33.74.05.06,2,3,4,0,0,0,1,1,0,0,1,Recovered
+SYN-0225,Feb/2022,31,Female,Office worker,33.74.02.02,6,5,14,1,0,0,0,0,1,1,0,Recovered
+SYN-0226,Jun/2022,31,Female,Market worker,33.74.02.01,5,7,6,0,0,0,0,0,1,0,0,Recovered
+SYN-0227,Sep/2022,26,Male,Market worker,33.74.02.06,2,11,5,1,0,0,1,1,0,0,1,Recovered
+SYN-0228,Mar/2020,24,Female,Farmer,33.74.02.02,7,6,3,1,1,0,0,1,0,0,0,Recovered
+SYN-0229,Apr/2022,36,Female,Student,33.74.01.02,6,5,10,1,0,0,0,0,0,0,0,Recovered
+SYN-0230,May/2021,9,Female,Student,33.74.01.06,0,9,13,1,1,0,1,1,0,0,1,Deceased
+SYN-0231,Mar/2020,65,Male,Market worker,33.74.05.03,7,8,10,1,1,0,1,0,0,0,1,Deceased
+SYN-0232,Jul/2020,62,Male,Farmer,33.74.06.06,1,1,2,1,0,0,1,1,0,0,1,Deceased
+SYN-0233,Apr/2022,29,Male,Farmer,33.74.02.02,4,7,3,1,0,0,0,1,0,0,0,Recovered
+SYN-0234,Apr/2023,49,Female,Student,33.74.06.07,0,7,6,0,0,1,1,0,0,0,1,Deceased
+SYN-0235,May/2023,26,Male,Office worker,33.74.05.01,6,4,11,1,0,0,1,1,0,0,1,Recovered
+SYN-0236,Mar/2021,30,Male,Student,33.74.04.01,1,5,14,1,1,0,1,1,0,0,1,Recovered
+SYN-0237,Oct/2023,30,Female,Office worker,33.74.04.05,7,4,8,1,1,0,1,0,0,0,1,Recovered
+SYN-0238,Sep/2022,23,Female,Student,33.74.01.02,5,4,2,1,0,0,1,0,0,0,1,Recovered
+SYN-0239,Nov/2023,19,Male,Market worker,33.74.05.04,5,7,12,1,0,0,0,0,0,0,0,Recovered
+SYN-0240,Jul/2022,51,Female,Market worker,33.74.04.01,3,1,3,1,1,0,0,0,0,0,0,Recovered

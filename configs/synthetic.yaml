@@ -1,0 +1,66 @@
+site_id: synthetic
+data:
+  cases: data/demo/synthetic_cases.csv
+  weather: data/demo/synthetic_weather.csv
+  population: data/demo/synthetic_population.csv
+  lookup: data/demo/synthetic_kecamatan_lookup.csv
+paths:
+  processed: data/processed/synthetic
+  global_models: models/global
+  local_models: models/local
+  reports: outputs/reports
+  predictions: outputs/predictions
+columns:
+  registered_date: registered_date
+  geo_code: patient_loc_kelurahan_code
+target:
+  column: patient_status
+  positive: Deceased
+  negative: Recovered
+required_columns:
+- patient_id
+- registered_date
+- patient_age
+- patient_gender
+- patient_loc_kelurahan_code
+feature_groups:
+  clinical:
+    columns:
+    - patient_age
+    - patient_gender
+    - patient_occupation
+    - first_symptom_day_offset
+    - hospitalised_day_offset
+    - diag_confirmed_day_offset
+    prefixes:
+    - symp_
+  environmental:
+    columns:
+    - humidity
+    - temperature_c
+    - rainfall_mm
+    prefixes:
+    - house_env_
+    - activity_
+    - bath_
+    - wound_
+  animal:
+    columns:
+    - house_env_rat_sighting
+    prefixes:
+    - animal_present_
+    - exposure_animal_
+  geography:
+    columns:
+    - kecamatan_code
+    - kecamatan_name
+security:
+  project_root: .
+  allow_external_paths: false
+  require_local_outputs: true
+  identifier_columns:
+  - patient_id
+  hash_identifier_columns:
+  - patient_id
+  drop_identifier_columns: []
+  free_text_columns: []

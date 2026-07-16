@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "onehealth-risk"
+version = "0.1.0"
+description = "Local-first One Health risk modelling library and CLI."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "joblib",
+    "numpy",
+    "pandas",
+    "pyyaml",
+    "scikit-learn",
+]
+
+[project.scripts]
+onehealth-risk = "onehealth_risk.cli:main"
+
+[tool.setuptools]
+packages = ["onehealth_risk"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

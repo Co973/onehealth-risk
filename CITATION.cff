@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "One Health Risk"
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - family-names: "One Health Risk contributors"
+version: "0.1.0"
+date-released: "2026-07-16"
+license: "MIT"
+abstract: "A local-first and security-aware Python toolkit for reproducible One Health surveillance risk modelling."
