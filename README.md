@@ -67,9 +67,3 @@ These controls reduce accidental disclosure risk; they are not a compliance cert
 - `onehealth_risk.security`: local path audits, identifier warnings, and de-identification.
 - `onehealth_risk.workflow`: one-command reproducibility pipeline.
 - `onehealth_risk.reports`: model-card and reporting helpers.
-
-## Claims
-
-Appropriate claims: research-oriented, local-first, privacy-preserving local workflow, security-aware defaults, reproducible software artifact, configurable One Health framework.
-
-Claims to avoid: clinically validated, diagnostic model, deployment-ready decision support, guaranteed HIPAA/GDPR compliance, secure against all threats.
